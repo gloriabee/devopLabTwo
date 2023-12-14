@@ -1,20 +1,20 @@
-Markdown Cheatsheet <a name="TOP"></a>
-==============
+# Markdown Cheatsheet <a name="TOP"></a>
 
-----
-# Heading 1 #
+---
+
+# Heading 1
 
     Markup: # Heading 1 #
     -OR-
     Markup: ======== (below H1 text)
 
-## Heading 2 ##
+## Heading 2
 
     Markup: ## Heading 2 ##
     -OR-
     Markup: ======== (below H2 text)
 
-### Heading 3 ##
+### Heading 3
 
     Markup: ### Heading 3 ###
 
@@ -30,15 +30,15 @@ _Emphasized text_
 
     Markup: ~~Strkiethrough text~~
 
-__strong text__
+**strong text**
 
     Markup: __Strong text__ or **Strong text**
 
-___strong emphasized text___
+**_strong emphasized text_**
 
     Markup:___strong emphasized text___ or ***strong emphasized text***
 
-[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+[Named Link](http://www.google.fr/ 'Named link title') and http://www.google.fr/ or <http://example.com/>
 
     Markup: [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
@@ -46,12 +46,12 @@ ___strong emphasized text___
 
     Markup: [heading-1](#heading-1 "Goto heading-1")
 
-Table, like this one : 
+Table, like this one :
 
-First Header  | Second Header
-------------- | --------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
 
 ```
 First Header  | Second Header
@@ -59,45 +59,46 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 ```
-
 
 `Code()`
 
     Markup : `code()`
 
 ```javascript
-    var specificLanguage_code= 
-    {
-        "data": {
-            "lookedUpPlatform":1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem":{
-                "name":"Test Transmission",
-                "artist":"Kasabian",
-                "album":"Kasabian",
-                "picture":null,
-                "link":"http://open.spotify.com/track/3423424242"
-            }
-        }
-    }
+var specificLanguage_code = {
+  data: {
+    lookedUpPlatform: 1,
+    query: 'Kasabian+Test+Transmission',
+    lookedUpItem: {
+      name: 'Test Transmission',
+      artist: 'Kasabian',
+      album: 'Kasabian',
+      picture: null,
+      link: 'http://open.spotify.com/track/3423424242',
+    },
+  },
+};
 ```
+
     Markup:```javascript
            ```
 
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
-* Bullet list item 2
+- Bullet list
+  - Nested bullet
+    - Sub-nested bullet etc
+- Bullet list item 2
+
 1. A numbered list
-    1. A nested numbered list
-    2. which is numbered
+   1. A nested numbered list
+   2. which is numbered
 2. which is numbered
 
-    - [ ] An uncompleted task
-    - [X] A completed task
+   - [ ] An uncompleted task
+   - [x] A completed task
 
 > Blockquote
->> Nested blockquote
+>
+> > Nested blockquote
 
 Foldable text:
 
@@ -110,11 +111,10 @@ Foldable text:
     <p>Content 2 Content 2 Content 2 Content 2 Content 2 Content 2</p>
 </details>
 
-
 Link to a specific part of the page:
 [Go To Top](#TOP)
 
-Hotkey: 
+Hotkey:
 <kbd>⌘F</kbd>
 <kbd>⇧⌘F</kbd>
 
@@ -146,13 +146,4 @@ Emoji:
 
 :mask:
 
-
-
-
-
-
-
-
-
-   
-
+    Markup : Xiangdan YU 652115519
